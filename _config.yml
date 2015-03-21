@@ -1,0 +1,14 @@
+# Site settings
+title: Super 8 Chinese
+email: xueliming123@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Three simple words that everyone wants to hear: BEST, BEST, BEST.
+  BEST Price, BEST Food, and BEST Customers!
+  
+baseurl: "/super8chinese" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
