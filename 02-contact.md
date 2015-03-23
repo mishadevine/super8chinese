@@ -15,7 +15,7 @@ Casselberry, FL 32707
 <br>
 
 
-<table>
+<table class="table">
 	<th>Hours:</th>
 	<tr>
 	  <td>Mon - Thu: 10:30 am - 10:00 pm</td>

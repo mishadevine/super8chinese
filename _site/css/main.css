@@ -447,3 +447,17 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+.picture {
+  margin: 0 auto;
+  width: 80%;
+  padding: 15px; }
+
+.special1 {
+  float: left; }
+
+.special2 {
+  float: left; }
+
+.special3 {
+  float: left; }
