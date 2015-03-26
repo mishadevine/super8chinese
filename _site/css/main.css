@@ -448,16 +448,53 @@ pre {
   .highlight .il {
     color: #099; }
 
+body {
+  background-color: #fdedc2; }
+
+.site-header, .site-footer {
+  background-color: #5b93aa; }
+
+.site-footer {
+  font-weight: bold; }
+
+.table {
+  text-align: left; }
+
+.head {
+  text-align: center; }
+
+.map {
+  float: right;
+  margin-top: -150px; }
+
 .picture {
   margin: 0 auto;
   width: 80%;
   padding: 15px; }
 
-.special1 {
-  float: left; }
-
-.special2 {
-  float: left; }
-
-.special3 {
-  float: left; }
+.specials {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+  .specials:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0; }
+  .specials li {
+    display: block;
+    width: 240px;
+    list-style: none;
+    margin: 0 10px 0 0;
+    padding: 0;
+    float: left; }
+    .specials li:last-child {
+      margin-right: 0; }
+    .specials li img {
+      display: block;
+      height: auto;
+      width: 100%; }
+    .specials li figcaption {
+      display: block; }

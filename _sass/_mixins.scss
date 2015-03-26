@@ -1,23 +1,52 @@
+
+
+@mixin header($color) {
+	background-color: $color;
+}
+
+@mixin footerFont($weight) {
+	font-weight: $weight;
+}
+
 @mixin table($left){
 		text-align: $left;
 }
 
-.picture {
-	margin: 0 auto;
-	width: 80%;
-	padding: 15px;
+@mixin tableHead($center) {
+	text-align: $center;
+}
+
+@mixin map($float, $up){
+	float: $float;
+	margin-top: $up;
+}
+
+@mixin picture($margin, $width, $padding) {
+	margin: $margin;
+	width: $width;
+	padding: $padding;
 	
 }
 
-
-.special1 {
-	float: left;
+@mixin special-1() {
+	
 }
 
-.special2 {
-	float: left;
+@mixin special-2() {
+	
 }
 
-.special3 {
-	float: left;
+@mixin special-3() {
+	
 }
+
+@mixin clearfix {
+	&:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+}     

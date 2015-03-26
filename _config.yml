@@ -7,8 +7,8 @@ description: > # this means to ignore newlines until "baseurl:"
   
 baseurl: "/super8chinese" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+googleplus_username: Super 8 Chinese Restaurant
+facebook_username:  Super8ChineseRestaurant
 
 # Build settings
 markdown: kramdown

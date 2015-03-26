@@ -1,0 +1,65 @@
+body {
+	background-color: rgb(253,237,194);
+}
+
+.site-header, .site-footer {
+	@include header(rgb(91,147,170))
+}
+
+.site-footer {
+	@include footerFont(bold);
+}
+
+.table {
+	@include table(left);
+}
+
+.head {
+	@include tableHead(center);
+}
+
+.map {
+	@include map(right, -150px);
+}
+
+.picture {
+	@include picture(0 auto, 80%, 15px);
+}
+
+.special1 {
+	@include special-1();
+}
+
+.special2 {
+	@include special-2();
+}
+
+.special3 {
+	@include special-3();
+}
+
+.specials{
+	@include clearfix;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	li {
+		display: block;
+		width: 240px;
+		list-style: none;
+		margin: 0 10px 0 0;
+		padding: 0;
+		float: left;
+		&:last-child{
+			margin-right: 0;
+		}
+		img {
+			display: block;
+			height: auto;
+			width: 100%;
+		}
+		figcaption {
+			display: block;
+		}
+	}
+}
