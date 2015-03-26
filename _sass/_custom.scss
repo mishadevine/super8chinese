@@ -26,17 +26,6 @@ body {
 	@include picture(0 auto, 80%, 15px);
 }
 
-.special1 {
-	@include special-1();
-}
-
-.special2 {
-	@include special-2();
-}
-
-.special3 {
-	@include special-3();
-}
 
 .specials{
 	@include clearfix;
