@@ -1,0 +1,19 @@
+- name: MIX SOUP (WONTON AND EGG DROP)
+  price: "$1.55 - $3.00"
+  image: 
+
+- name: WONTON 
+  price: "$1.55 - $3.00"
+  image: 
+
+- name: EGG DROP
+  price: "$1.60 - $3.20"
+  image: 
+
+- name: CHINESE VEGETABLE 
+  price: "$1.60 - $3.20"
+  image: 
+
+- name: HOUSE SPECIAL 
+  price: "$5.25"
+  image: 

@@ -1,0 +1,71 @@
+---
+layout: default
+---
+<div>
+	<ol>
+		{% for menuitem in site.data.menu %}
+			<li>
+				<ul>
+					{% if menuitem.image %}
+						<li class="image">
+							<img src="{{ site.baseurl }}/images/{{ menuitem.image }}" />
+						</li>
+					{% else %}
+						<li class="defaultimg">
+							<img src="{{ site.baseurl }}/images/super-logo.png" />
+						</li>		
+					{% endif %}	
+				</ul>	
+
+				<ul>
+					{% if menuitem.price %}
+						<p class="price">
+							{{ menuitem.price }}
+						</p>
+					{% endif %}	
+				</ul>	
+
+				<ul>
+					{% if menuitem.name %}
+						<h3 class="name">
+							{{ menuitem.name }}
+						</h3>	
+				</ul>	
+					{% endif %}
+			</li>
+		{% endfor %}
+		<h1>Soups</h1>
+		{% for menuitem in site.data.soups %}
+			<li>
+				<ul>
+					{% if menuitem.image %}
+						<li class="image">
+							<img src="{{ site.baseurl }}/images/{{ menuitem.image }}" />
+						</li>
+					{% else %}
+						<li class="defaultimg">
+							<img src="{{ site.baseurl }}/images/super-logo.png" />
+						</li>		
+					{% endif %}	
+				</ul>	
+
+				<ul>
+					{% if menuitem.price %}
+						<p class="price">
+							{{ menuitem.price }}
+						</p>
+					{% endif %}	
+				</ul>	
+
+				<ul>
+					{% if menuitem.name %}
+						<h3 class="name">
+							{{ menuitem.name }}
+						</h3>	
+				</ul>	
+					{% endif %}
+			</li>
+		{% endfor %}
+
+	</ol>
+</div>	

@@ -52,3 +52,23 @@ body {
 		}
 	}
 }
+
+.image, .defaultimg {
+	@include image(200px, auto, none, 10px);
+}
+
+.price, .name {
+	@include price(250px, -70px);
+}
+
+.defaultimg {
+	padding-top: 50px;
+}
+h1 {
+	background-color: red;
+	width: 20%;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: -70px;
+	text-align: center;
+}

@@ -39,3 +39,20 @@
      height: 0;
      }
 }     
+
+@mixin image($width, $height, $list, $pad) {
+	width: $width;
+	height: $height;
+	list-style: $list;
+	padding: $pad;
+
+}
+
+ol {
+	list-style: none;
+}
+
+@mixin price($pixels, $up) {
+	margin-left: $pixels;
+	margin-top: $up;
+}

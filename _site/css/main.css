@@ -187,11 +187,8 @@ pre {
         line-height: 0;
         padding-top: 10px;
         text-align: center; }
-        .site-nav .menu-icon > svg {
-          width: 18px;
-          height: 15px; }
-          .site-nav .menu-icon > svg path {
-            fill: #424242; }
+        .site-nav .menu-icon > svg path {
+          fill: #424242; }
       .site-nav .trigger {
         clear: both;
         display: none; }
@@ -448,6 +445,9 @@ pre {
   .highlight .il {
     color: #099; }
 
+ol {
+  list-style: none; }
+
 body {
   background-color: #fdedc2; }
 
@@ -498,3 +498,24 @@ body {
       width: 100%; }
     .specials li figcaption {
       display: block; }
+
+.image, .defaultimg {
+  width: 200px;
+  height: auto;
+  list-style: none;
+  padding: 10px; }
+
+.price, .name {
+  margin-left: 250px;
+  margin-top: -70px; }
+
+.defaultimg {
+  padding-top: 50px; }
+
+h1 {
+  background-color: red;
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: -70px;
+  text-align: center; }

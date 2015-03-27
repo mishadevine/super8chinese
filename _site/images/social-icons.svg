@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px">
 
 
-<symbol id="facebook" viewBox="0 0 79 79">
+<symbol id="facebook">
 <path fill="red" d="M474.4,0.3h-68.6c-2.8,0-5,2.3-5,5V74c0,2.8,2.3,5,5,5h36.9V48.6h-10.3V36.6h10.2
 	c0,0,0.2-4.2,0.2-10.6s4.8-10.9,7-12c2.2-1.1,5.6-1.9,9.2-1.8c3.5,0.2,8,0.6,8,0.6l0.2,10.4c0,0-5.6,0.1-7.8,0.2
 	c-2.1,0.1-4.4,1.2-4.4,5.1s0,8,0,8h11.9l-1.7,11.9h-10.2V79h19.3c2.8,0,5-2.3,5-5V5.4C479.5,2.6,477.2,0.3,474.4,0.3z"/>
