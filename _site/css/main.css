@@ -451,6 +451,13 @@ ol {
 body {
   background-color: #fdedc2; }
 
+hr {
+  background-color: #5b93aa;
+  height: 2px; }
+
+.seperator {
+  padding-top: 10px; }
+
 .site-header, .site-footer {
   background-color: #5b93aa; }
 
