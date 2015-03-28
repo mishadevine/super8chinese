@@ -54,7 +54,7 @@ body {
 }
 
 .image, .defaultimg {
-	@include image(200px, auto, none, 10px);
+	@include image(200px, auto, none, 20px);
 }
 
 .price, .name {
@@ -64,11 +64,24 @@ body {
 .defaultimg {
 	padding-top: 50px;
 }
-h1 {
-	background-color: red;
+
+.app {	
+	width: 20%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.soup {
 	width: 20%;
 	margin: 0 auto;
 	margin-top: 100px;
 	margin-bottom: -70px;
 	text-align: center;
+	font-weight: bold;
+}
+
+.footer-col-wrapper {
+	color: white;
 }

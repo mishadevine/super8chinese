@@ -2,6 +2,18 @@
   price: "$1.50"
   image: something.jpg
 
-- name: Devill Roll 
-  price: "$1.85"
+- name: EGG ROLL 
+  price: "$1.30"
   image: 
+
+- name: CANTONESE SHRIMP SPRING ROLL
+  price: "$1.60"
+  image:  
+
+- name: PAN FRIED OR STEAMED DUMPLINGS
+  price: "$4.95"
+  image: steamed-dumpling.jpg
+
+- name: FRIED CHICKEN WINGS
+  price: "$3.25"
+  image:      

@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
+
 <div>
 	<ol>
+		<h1 class="app">Appetizers</h1>
 		{% for menuitem in site.data.menu %}
 			<li>
 				<ul>
@@ -14,6 +16,15 @@ layout: default
 						<li class="defaultimg">
 							<img src="{{ site.baseurl }}/images/super-logo.png" />
 						</li>		
+					{% endif %}	
+
+				</ul>	
+
+				<ul>
+					{% if menuitem.image2 %}
+						<li class="image2">
+							<img src="{{ site.baseurl }}/images/{{ menuitem.image2 }}" />
+						</li>
 					{% endif %}	
 				</ul>	
 
@@ -34,7 +45,7 @@ layout: default
 					{% endif %}
 			</li>
 		{% endfor %}
-		<h1>Soups</h1>
+		<h1 class="soup">Soups</h1>
 		{% for menuitem in site.data.soups %}
 			<li>
 				<ul>
